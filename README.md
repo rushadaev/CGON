@@ -4,7 +4,7 @@
 ```
 public function getFontColor(){
 	$hex = $color; //Фоновый цвет в hex, без префикса - здесь указывается цвет из предыдущих функций или из параметра #!
-	//Ращбираем 
+	//Разбираем 
 	$r = hexdec(substr($hex,0,2));
 	$g = hexdec(substr($hex,2,2));
 	$b = hexdec(substr($hex,4,2));
