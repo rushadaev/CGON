@@ -1,8 +1,7 @@
 # Изменение цвета текста в зависимости от цвета фона
 Всё очень просто
 
-**
-public function getFontColor(){
+**public function getFontColor(){
 	$hex = $this -> bgColor; //Фоновый цвет в hex, без префикса #!
 
 	//Ращбираем 
